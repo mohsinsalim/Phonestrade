@@ -1,0 +1,342 @@
+@charset "utf-8";
+/* Small Size CSS Document */
+
+
+
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+h1 {
+	letter-spacing: 2.5px;
+	font-size: 40px;
+}
+
+h2 {
+	letter-spacing: 2px;
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+	color: #222;
+}
+
+h3 {
+	letter-spacing: 2px;
+}
+
+h4 {
+	letter-spacing: 1.8px;
+}
+
+p {
+	letter-spacing: 1.8px;
+	font-size: 14px;
+}
+
+
+img {
+	user-drag: none; 
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	user-select: none;
+	-ms-user-select: none;
+}
+
+.bg-gray {
+	background-color: #f6f6f6;
+	color: #222;
+}
+
+.bg-ivory {
+	border: 0.2px solid #f6f6f6;
+	background-color: ivory;
+}
+
+.bg-howitworks {
+	background-color: #ffffe9;
+	border: 0.2px solid #f2f2f2;	
+}
+
+.bg-ghostwhite {
+	background-color: ghostwhite;
+}
+
+.colorRB {
+	color: royalblue;
+}
+
+.colorGY {
+	color: orange;
+}
+
+nav {
+	padding: 0 2px;
+}
+.navbar {
+      padding-top: 5px;
+      padding-bottom: 10px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  
+  .font1 {
+  	font-family: 'Maven Pro', sans-serif;
+  }
+  
+ .container_1 {
+  	width: 100%;
+	padding: 25px 30px;
+  }
+  
+  .container_2 {
+  	padding: 50px 0px;
+  }
+  
+  .container_3 {
+  	padding: 25px 0px;
+  }
+  
+  .container_4 {
+  	width: 85%;
+	padding: 15px 50px;
+  }
+  
+   .container_5 {
+	width: 90%;
+  	padding: 80px 50px;
+	margin-bottom: 50px;
+  }
+  
+  .container_6 {
+  	padding: 80px 50px;
+	margin-bottom: 50px;
+  }
+  
+  .container_7 {
+  	width: 90%;
+	padding: 10px 50px;
+  }
+  
+  .container_8 {
+	width: 85%;
+  	padding: 70px 50px;
+	margin-bottom: 60px;
+  }
+  
+  .row1 {
+  	margin: 20px 0px;
+  }
+  
+   .row2 {
+	padding: 30px 10px 0px 10px; 
+	margin: 20px 5px;
+  }
+  
+  .row3 {
+	padding: 30px 0px 0px 0px; 
+	margin: 20px 0px;
+  }
+  
+  .row4 {
+	width: 100%;
+	padding: 30px 10px 0px 10px; 
+	margin: 20px 5px;
+  }
+  
+  .row5 {
+	width: 100%;
+	margin:0 auto;
+	padding: 20px 0px 5px 0px; 
+  }
+
+
+  
+  .btnBandS {
+  	margin: 15px 0;
+  }
+  
+
+  
+  .logo {
+  	padding: 0px;
+  }
+  
+  .logo-small {
+  	color: #f4511e;
+	font-size: 80px;
+	padding: 25px 10px;
+	margin-top: 15px;
+  }
+  
+  .well1{
+  	background-color: cadetblue;
+	padding-left:60px;
+	padding-right:60px; 
+	color:#fff;
+	letter-spacing: 2px; 
+	font-size: 14px;
+	border: 0.5px solid #999;
+  }
+  
+  .well2{
+  	background-color: aliceblue;
+	border: 2px solid #777;
+  }
+  
+  .colpadd {
+  	padding: 0px 5px;
+  }
+.carousel-control.right, .carousel-control.left {
+	background-image: none;
+	color: #36802d;
+}
+
+.carousel-indicators li {
+	border-color: #36802d;
+}
+
+.carousel-indicators li.active {
+	background-color: #36802d;
+}
+
+.item h4 {
+	font-size: 19px;
+	line-height: 1.375em;
+	font-weight: 400;
+	font-style: italic;
+	margin: 70px 0;
+}
+
+.item span {
+	font-style: normal;
+}
+
+#ChoosingCarrier {
+	color: cornflowerblue;
+}
+
+.carrierHover:hover {
+	color: blue;
+}
+
+.carrierlogo {
+	margin: 25px 0;
+	border: 2px solid #f8f8f8;
+	border-radius: 2px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.carrierlogo:hover {
+	
+}
+
+#career {
+	display: none;	
+}
+
+.imgcareer {
+	border: 1px solid #999;
+}
+
+ .spaceSizeImage {
+ 	
+	margin: 20px 15px;
+	
+ }
+ 
+ .phoneListHover:hover {
+	 transition: 0.2s ease-in-out;
+ 	width: 100px;
+	height: 175px;
+ }
+ 
+ 
+ .radiobtn1 {
+ 	padding: 20px 5px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 35px;
+ }
+ 
+ .PriceIntInput {
+	width: 90px; 
+	padding: 5px; 
+	margin: 5px;	 
+}
+
+.tBStyle {
+	margin: 20px 30px;
+}
+
+
+#separator {
+	display: none;	
+}
+
+#signin {
+	padding-right: 0px;
+	margin: 0px;	
+}
+
+#signup {
+	padding-left: 0px;
+	margin: 0px;	
+}
+
+
+#buyPhoneImg{
+	width: 100px;
+
+}
+
+#sellPhoneImg{
+	width: 100px;	
+}
+ 
+
+#pathBar {
+	display: none;
+}
+
+#detail-image {
+	width: 100px;
+	height: 180px;	
+}
+
+#signinanchor {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#signupanchor {
+	padding-left: 0;
+	padding-right: 0;		
+}
+
+.rowtextAdjust {
+	text-align: center;
+}
+
+#getEmailAdd, #getCfmEmailAdd, #getNameText, #getMobileNo, #currPwd, #nPwd, #cPwd, #adrsL1, #adrsL2, #adrsCity, #adrsState, #adrsZip {
+	width: 90%;
+}
+
+#nameEdit, #emailEdit, #mobileEdit, #addressEdit, #pwdEdit {
+	font-size: 12px;
+}
+
+#profileSett p, #nameEdit, #emailEdit, #mobileEdit, #addressEdit, #pwdEdit {
+	font-size:12px;
+	letter-spacing: 0px;
+}
+
+#getEmailDiv{
+	width: 100%;
+}

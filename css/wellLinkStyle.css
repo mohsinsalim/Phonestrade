@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+/*Well Style*/
+
+
+
+a{
+	text-decoration:none;
+	color: white;
+}
+a:hover{
+	color: gold;
+	}
+

@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+p {
+	font-size: 14px;
+	color: black;
+	letter-spacing: 1px;
+}
+
+#nameEdit, #emailEdit, #mobileEdit, #addressEdit, #pwdEdit {
+	 float:right; 
+	 color: blue; 
+	 font-size:14px;
+}
+
+#nameEdit:hover {
+	cursor: pointer;
+	text-decoration: underline;	
+}
+
+#emailEdit:hover {
+	cursor: pointer;
+	text-decoration: underline;	
+}
+
+#mobileEdit:hover {
+	cursor: pointer;
+	text-decoration: underline;	
+}
+
+#addressEdit:hover {
+	cursor: pointer;
+	text-decoration: underline;	
+}
+
+#pwdEdit:hover {
+	cursor: pointer;
+	text-decoration: underline;	
+}
+
+#getEmailAdd, #getCfmEmailAdd, #getNameText, #getMobileNo, #currPwd, #nPwd, #cPwd, #adrsL1, #adrsL2, #adrsCity, #adrsState, #adrsZip {
+	width:50%; 
+	margin:auto; 
+}
+
+#getCfmEmailAdd, #cPwd, #adrsL2, #adrsState, #adrsSubmitButton {
+	margin-top: 5px; 
+	margin-bottom: 5px;
+}
+
+#nPwd{
+	margin-top: 5px;
+}
+
+#nameForm, #emailForm, #mblForm, #pwdForm, #addrsForm {
+	display: none;
+}
